@@ -35,7 +35,7 @@ with col2:
 
 with col3:
     #barchart: Order priority of each category in each segment 
-    fig_bar_priority = px.bar(subcategory_df, x='Order Priority', y='Quantity', color='Sub-Category', barmode='group', title='Order priority of each subcategory wise segment ')
+    fig_bar_priority = px.bar(subcategory_df, x='Order Priority', y='Quantity', color='Sub-Category', barmode='group', title='Order priority of each subcategory in their quantity ')
     st.plotly_chart(fig_bar_priority)
 
 with col4:
